@@ -11,7 +11,6 @@ export const Semaforo = () => {
                 <div className="palo"></div>
                 <div className="container">
                     <div className="icons">
-
                         <i className="light" 
                             style={{ boxShadow: lightRed ? "0px 0px 50px 20px rgb(255, 0, 0)": "none" }}
                             onClick={ () => {
