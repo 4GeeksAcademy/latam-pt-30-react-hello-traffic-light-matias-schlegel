@@ -1,0 +1,50 @@
+.all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 18rem;
+    border-radius: 7%;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.light1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.light2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.palo {
+    display: flex;
+    justify-content: center;
+    background-color: #242424;
+    width: 1.2rem;
+    height: 10rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 5rem;
+}
